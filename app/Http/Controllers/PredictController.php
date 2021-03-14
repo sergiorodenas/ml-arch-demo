@@ -15,7 +15,8 @@ class PredictController extends Controller
     public function __invoke(Request $request)
     {
         /**
-         * ML::predict()
+         * ML::predict('products', [])
+         * ML::addToModel('products', [])
          */
     }
 }
